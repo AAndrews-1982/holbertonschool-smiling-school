@@ -4,6 +4,7 @@
 
 #### You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have fully functional web pages that look the same as the designer file.
 
+
 ![image](https://github.com/AAndrews-1982/holbertonschool-smiling-school/assets/116847683/c1359082-11a9-4537-a144-f373400786df)
 
 ![image](https://github.com/AAndrews-1982/holbertonschool-smiling-school/assets/116847683/365cabcb-c40e-454e-b701-154aa33bd52b)
