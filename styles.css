@@ -5,7 +5,7 @@
     font-family: 'Source Sans Pro'!important;
 }
 
-/* header section */
+/* header and nav section */
 
 header {
     background-image: url("./images/pic_1.jpg");
@@ -18,20 +18,19 @@ header {
   /* Media query for large screens */
 @media (max-width: 992px) {
     header {
-        background-size: cover;
+    background-size: cover;
     }
 }
 
   header a:hover {
     text-decoration: none;
-    border-bottom: 1px solid white;
     color: #C371FF!important; 
 }
 
 
 .logo {
     width: auto;
-    height: 30px;
+    height: auto;
 }
 
 .nav-item {
@@ -45,14 +44,14 @@ header {
     background-color: #C271FF!important;
     border-bottom:#C271FF!important;
     border-color: #C271FF!important;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 
 .btn:hover, .btn:active {
     background-color: #C271FF!important;
-    border-color: #C271FF!important;
-    opacity: 0.8;
+    border-color: #C3B1E1!important;
+    opacity: 1px;
 }
 
 /* Pros section */
@@ -104,9 +103,8 @@ header {
     top: 0.4rem;
 }
 
-/*Web pages must switch to the tablet version when the screen width is 768px
-Web pages must switch to the mobile version when the screen width is 576px
-button hover/active: opacity: 0.9*/
+/* tablet version when the screen is 768px */
+/* mobile version when the screen width is 576px */
 
 @media (max-width: 1200px) {
     header {
@@ -114,7 +112,7 @@ button hover/active: opacity: 0.9*/
     }
 
     .pros img {
-        width: 75%!important;
+        width: 100%!important;
         height: auto;
     }
 }
@@ -223,13 +221,23 @@ img.circle-thumb-small {
 }
 
 
-/* ---+++++++  Pricing WEBSITE - header/ Hero Section  +++++++++++++++++++++++++++*/
+/* ---+++++++  Pricing Page - header/ Hero Section  +++++++++++++++++++++++++++*/
 
 .pricing {
     background-image: url("images/pic_2.jpg")!important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+@media(min-width: 568px) {
+    .page-hero {
+      height: 445px;
+      padding-top: 0;
+      padding-bottom: 0;
+      display: flex;
+      align-items: center;
+    }
 }
 
 .logoP {
