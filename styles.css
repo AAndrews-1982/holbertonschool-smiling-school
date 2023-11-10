@@ -1,21 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
 
-/* Fonts */
+
+/*---- Fonts ----*/
 
 * {
     font-family: 'Source Sans Pro'!important;
 }
 
-/* header and nav section */
+
+
+/*---- header and nav section ----*/
 
 header {
     background-image: url("./images/pic_1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 100px;
+    padding-top: 200px;
   }
 
-  /* Media query for large screens */
+
+
+  /*---- Media query for large screens -----*/
 @media (max-width: 992px) {
     header {
     background-size: cover;
@@ -34,30 +43,31 @@ header {
 }
 
 .nav-item {
-    font-size: 12px!important;
+    font-size: 18px!important;
 }
 
 
-/* hero section */
+
+/*---- hero section ----*/
 
 .btn {
     background-color: #C271FF!important;
     border-bottom:#C271FF!important;
     border-color: #C271FF!important;
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
 .btn:hover, .btn:active {
     background-color: #C271FF!important;
     border-color: #C3B1E1!important;
-    opacity: 1px;
+    opacity: 0.8;
 }
 
-/* Pros section */
+/*---- Pros section ----*/
 
 .pros-section {
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 
 .text-violet {
@@ -103,9 +113,6 @@ header {
     top: 0.4rem;
 }
 
-/* tablet version when the screen is 768px */
-/* mobile version when the screen width is 576px */
-
 @media (max-width: 1200px) {
     header {
         background-position: 50% 50%;
@@ -142,10 +149,12 @@ header {
     }
 }
 
-/*** --------- Carousel of quotes ------- ***/
+/*----- Carousel of quotes ----*/
 
 .bg-violet {
     background-color: #c271ff!important;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .carousel-item {
@@ -166,13 +175,8 @@ img.circle-thumb {
     left: 37%;
 }
 
-/* ---- Popular videos Section ---- */
+/* ---- Most popular videos Section ---- */
 
-/*
-.video-card {
-    width: 250px;
-}
-*/
 
 img.circle-thumb {
     width: 150px;
@@ -199,11 +203,11 @@ img.circle-thumb-small {
     height: 30px;
     color: black;
     background-color: #C271FF;
-    border-radius: 20%;
+    border-radius: 40%;
     top: 10%;
     transform: translateY(-62%);
-    margin-right: 5rem;
-    margin-left: 5rem;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 
 /* ---- Free membership Section ---- */
@@ -211,6 +215,20 @@ img.circle-thumb-small {
 
 .bg-sectionfree {
     background-color: #071629;    
+}
+
+.btn {
+    background-color: #C271FF!important;
+    border-bottom:#C271FF!important;
+    border-color: #C271FF!important;
+    font-size: 20px;
+
+}
+
+.btn:hover, .btn:active {
+    background-color: #C271FF!important;
+    border-color: #C3B1E1!important;
+    opacity: 0.8;
 }
     
 
@@ -221,7 +239,7 @@ img.circle-thumb-small {
 }
 
 
-/* ---+++++++  Pricing Page - header/ Hero Section  +++++++++++++++++++++++++++*/
+/* ---- Pricing Page - header/ Hero Section  ----*/
 
 .pricing {
     background-image: url("images/pic_2.jpg")!important;
@@ -245,7 +263,7 @@ img.circle-thumb-small {
     height: 50px;
 }
 
-/* ---------- FAQ Section --------------------*/
+/* ---- FAQ Section ----*/
 
 .faq-section {
     padding: var(--section-padding);
@@ -259,7 +277,7 @@ img.circle-thumb-small {
   color: #07162980;
 }
 
-/* +++++++++++++ COURSES WEBPAGE - header/ Hero Section +++++++++*/
+/*---- COURSES WEBPAGE - header/ Hero Section ----*/
 
 .courseSection {
     background-image: url("images/pic_3.jpg")!important;
@@ -274,7 +292,7 @@ img.circle-thumb-small {
 }
 
 
-/** ++++++++++++ COURSES WEBPAGE - Filters Section ++++------------- ***/
+/*----- COURSES WEBPAGE - Filters Section -----*/
 
 .search-icon {
     width: 20px;
